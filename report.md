@@ -72,6 +72,36 @@ main() 함수에서는 Counter 객체 c를 생성하고, getValue() 함수를 �
 
 ### ChatGPT를 활용하여 STL의 자료구조와 알고리즘을 분류하고, 자료구조 예제 1개와 알고리즘 1개를 만들고 토의를 하시오.
 
+자료구조:
+1. Sequence Containers (순차형 컨테이너)
+vector,deque,list,forward_list,array
+2. Associative Containers (연관형 컨테이너)
+set,multiset,map,multimap
+3. Unordered Containers (비순차형 컨테이너)
+unordered_set,unordered_multiset,unordered_map,unordered_multimap
+4. Container Adapters (컨테이너 어댑터)
+stack,queue,priority_queue
+
+알고리즘:
+1. Sorting (정렬)
+sort,stable_sort,partial_sort,nth_element,merge,inplace_merge
+2. Searching (검색)
+find,binary_search,lower_bound,upper_bound,equal_range
+3. Partitioning (분할)
+partition,stable_partition,is_partitioned
+4. Permutations (순열)
+next_permutation,prev_permutation
+5. Heap (힙)
+make_heap,push_heap,pop_heap,sort_heap
+6. Numeric (숫자 계산)
+accumulate,inner_product,adjacent_difference,partial_sum
+7. Others (기타)
+find_if,for_each,count,transform,unique
+
+### 예시
+```
+
+```
 ### 설명 
 
 ### C++의 주요 특징 20가지의 제목을 적어 보고 토의 하시오.
@@ -96,3 +126,7 @@ main() 함수에서는 Counter 객체 c를 생성하고, getValue() 함수를 �
 18. static 키워드
 19. 반복자
 20. 프렌드
+
+### 토의내용 
+C++은 매우 강력하고 다양한 기능을 제공하는 언어로, 객체 지향 프로그래밍, 다형성, 추상화, 캡슐화, 정보 은닉 등의 특징들이 유용하게 사용됩니다. 또한, 연산자 오버로딩, 함수 오버로딩, 참조와 포인터, STL, 예외 처리, 템플릿 프로그래밍, RTTI, 이름 공간, const, static, inline, auto 등의 다양한 기능을 제공하여 더욱 다양한 상황에서 유연하게 코딩이 가능합니다.
+그러나 C++은 상대적으로 높은 학습 곡선과 언어의 복잡성, 메모리 누수 및 다른 언어와 호환성 부족 등의 문제가 있습니다. 따라서, 적절한 학습과 프로그래밍 관행을 유지하며 C++을 사용하는 것이 중요합니다.
