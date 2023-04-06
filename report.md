@@ -67,8 +67,29 @@ main() 함수에서는 Counter 객체 c를 생성하고, getValue() 함수를 �
 따라서, 위 코드는 전위 증가 연산자 ++을 오버로딩하여, Counter 객체의 값을 1 증가시키는 기능을 수행합니다. 전위 증가 연산자 ++를 사용한 경우, 먼저 값을 증가시키고, 그 다음에 증가된 값을 가진 객체를 반환합니다.
 
 ###  STL로 stack을 5개 만들고, 50, 40, 30, 20, 10을 저장하고, 출력 하는 것을 iterator를 활용하시오.
+```
+#include <iostream>
+#include <stack>
+using namespace std;
 
+int main() {
+  int stack_size = 5;
+  stack<int> s;
+  s.push(50);
+  s.push(40);
+  s.push(30);
+  s.push(20);
+  s.push(10);
+  
+  for (int i = 0; i < stack_size; ++i) {
+    cout << "stack: " << s.top() << endl;
+    s.pop();
+  }
+  return 0;
+}
+```
 ### 설명
+스택사이즈 변수를 사용하여 스택의 크기를 5로 지정해 준 다음 스택에 push를 사용해 50,40,30,20,10을 스택에 저장하여 줍니다. for문을 이용하여 스택의 요소를 출력하여 주는데 top()함수를 사용하여 가장 위에 있는 값을 출력하여 주고 pop()함수를 이용하여 출력한 값을 밖으로 배출합니다.. 스택에 저장하였기 때문에 10부터 50까지 역순으로 출력됩니다.
 
 ### ChatGPT를 활용하여 STL의 자료구조와 알고리즘을 분류하고, 자료구조 예제 1개와 알고리즘 1개를 만들고 토의를 하시오.
 
@@ -98,11 +119,17 @@ accumulate,inner_product,adjacent_difference,partial_sum
 7. Others (기타)
 find_if,for_each,count,transform,unique
 
-### 예시
+### 자료구조 예시
 ```
 
 ```
-### 설명 
+### 자료구조 설명
+
+### 알고리즘 예시
+```
+
+```
+### 알고리즘 설명
 
 ### C++의 주요 특징 20가지의 제목을 적어 보고 토의 하시오.
 
