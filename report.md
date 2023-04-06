@@ -170,10 +170,29 @@ int main() {
 
 ### 알고리즘 예시
 ```
+#include <algorithm>
+#include <vector>
+#include <iostream>
+using namespace std;
 
+int main()
+{
+    vector<int> vec = { 7,34,7,10,11,23,54,77 };
+    sort(vec.begin(), vec.end());
+
+    for (int i = 0; i < vec.size(); i++) {
+        cout << vec[i] << ' ';
+    }
+    
+    return 0;
+}
 
 ```
 ### 알고리즘 설명
+
+int형 벡터를 선언하고 무작위 값을 넣어줍니다. algorithm 라이브러리의 sort 함수를 이용하여 벡터를 오름차순으로 정렬합니다. for문을 이용해 출력한다면 오름차순으로 정렬된 숫자들을 볼 수 있습니다.
+
+
 
 ### C++의 주요 특징 20가지의 제목을 적어 보고 토의 하시오.
 
