@@ -129,17 +129,48 @@ find_if, for_each, count, transform, unique
 ### 자료구조 예시
 
 ```
+#include <iostream>
+#include <stack>
+
+using namespace std;
+
+int main() {
+  // int형 stack 선언
+  stack<int> s;
+
+  // 데이터 추가
+  s.push(1);
+  s.push(2);
+  s.push(3);
+
+  // 데이터 접근
+  cout << "가장 위의 데이터: " << s.top() << endl;
+
+  // 크기
+  cout << "크기: " << s.size() << endl;
+
+  // 순회
+  while (!s.empty()) {
+    cout << s.top() << " ";
+    s.pop(); // 데이터 삭제
+  }
+  cout << endl;
+
+  return 0;
+}
+
 
 ```
 
 ### 자료구조 설명
 
-stack은 후입선출(LIFO, Last In First Out) 구조의 컨테이너 어댑터입니다. 
-push()로 데이터를 추가하고, top()으로 가장 최근에 추가된 데이터에 접근할 수 있습니다.
- 다음은 int형 데이터를 저장하는 stack의 예시입니다.
+위 코드에서는 push()로 1, 2, 3을 순서대로 stack에 추가한 후, top()으로 가장 최근에 추가된 3에 접근합니다.
+그리고 size()로 스택의 크기를 출력하고, while문을 이용해 stack이 empty()일 때까지 top()으로 데이터에 접근하고, pop()으로 삭제합니다. 
+이렇게 하면 stack에 저장된 데이터를 후입선출 순서로 출력할 수 있습니다.
 
 ### 알고리즘 예시
 ```
+
 
 ```
 ### 알고리즘 설명
