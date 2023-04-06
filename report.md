@@ -102,29 +102,29 @@ int main() {
 
 자료구조:
 1. Sequence Containers (순차형 컨테이너)
-vector,deque,list,forward_list,array
+vector, deque, list, forward_list, array
 2. Associative Containers (연관형 컨테이너)
-set,multiset,map,multimap
+set, multiset, map, multimap
 3. Unordered Containers (비순차형 컨테이너)
-unordered_set,unordered_multiset,unordered_map,unordered_multimap
+unordered_set, unordered_multiset, unordered_map, unordered_multimap
 4. Container Adapters (컨테이너 어댑터)
-stack,queue,priority_queue
+stack, queue, priority_queue
 
 알고리즘:
 1. Sorting (정렬)
-sort,stable_sort,partial_sort,nth_element,merge,inplace_merge
+sort, stable_sort, partial_sort, nth_element, merge,inplace_merge
 2. Searching (검색)
-find,binary_search,lower_bound,upper_bound,equal_range
+find, binary_search, lower_bound, upper_bound, equal_range
 3. Partitioning (분할)
-partition,stable_partition,is_partitioned
+partition, stable_partition, is_partitioned
 4. Permutations (순열)
-next_permutation,prev_permutation
+next_permutation, prev_permutation
 5. Heap (힙)
-make_heap,push_heap,pop_heap,sort_heap
+make_heap, push_heap, pop_heap,sort_heap
 6. Numeric (숫자 계산)
-accumulate,inner_product,adjacent_difference,partial_sum
+accumulate, inner_product, adjacent_difference, partial_sum
 7. Others (기타)
-find_if,for_each,count,transform,unique
+find_if, for_each, count, transform, unique
 
 ### 자료구조 예시
 ```
