@@ -127,10 +127,16 @@ accumulate, inner_product, adjacent_difference, partial_sum
 find_if, for_each, count, transform, unique
 
 ### 자료구조 예시
+
 ```
 
 ```
+
 ### 자료구조 설명
+
+stack은 후입선출(LIFO, Last In First Out) 구조의 컨테이너 어댑터입니다. 
+push()로 데이터를 추가하고, top()으로 가장 최근에 추가된 데이터에 접근할 수 있습니다.
+ 다음은 int형 데이터를 저장하는 stack의 예시입니다.
 
 ### 알고리즘 예시
 ```
